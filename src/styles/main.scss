@@ -1,0 +1,132 @@
+@charset "utf-8";
+
+$navbar-background-color: #82da9f;
+$navbar-height: 6rem;
+@import "../../node_modules/bulma/bulma";
+
+.layout-wrap {
+  background-color: #cbd4ca;
+  position: relative;
+  min-height: 100vh;
+}
+.footer {
+  position: absolute;
+  bottom: -100px;
+  width: 100vw;
+  height: 100px;
+  background: $light;
+}
+
+.location-link {
+  border: 2px solid $grey;
+  &:hover {
+    transform: scale(1.01);
+  }
+}
+
+.ffc {
+  display: flex;
+  flex-flow: column;
+}
+
+.jsfs {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.jsfe {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.jsc {
+  display: flex;
+  justify-content: center;
+}
+
+.jssb {
+  display: flex;
+  justify-content: space-between;
+}
+
+.jsse {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.jssa  {
+  display: flex;
+  justify-content: space-around;
+}
+
+.alc {
+  display: flex;
+  align-items: center;
+}
+
+.alfs {
+  display: flex;
+  align-items: flex-start;
+}
+
+.alfe {
+  display: flex;
+  align-items: flex-end;
+}
+
+.tar {
+  text-align: right;
+}
+
+.tal {
+  text-align: left;
+}
+
+.tac {
+  text-align: center;
+}
+
+.mt {
+  margin-top: 1rem;
+}
+
+.mt-2 {
+  margin-top: 2rem;
+}
+
+.mt-3 {
+  margin-top: 3rem;
+}
+
+.mr {
+  margin-right: 0.5rem;
+}
+
+.ml {
+  margin-left: 1rem;
+}
+
+.ml-2 {
+  margin-left: 2rem;
+}
+
+.mb {
+  margin-bottom: 1rem;
+}
+
+.mb-2 {
+  margin-bottom: 2rem;
+}
+
+.mb-3 {
+  margin-bottom: 3rem;
+}
+
+.page-cover {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
